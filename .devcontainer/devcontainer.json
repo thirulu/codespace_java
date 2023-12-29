@@ -9,21 +9,12 @@
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
 			"installMaven": "true",
-			"installGradle": "false"
+			"installGradle": "true"
 		},
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
 			"version": "latest",
 			"jdkVersion": "latest",
-			"jdkDistro": "oracle"
-		}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"streetsidesoftware.code-spell-checker",
-				"vscjava.vscode-java-pack",
-				"GitHub.copilot"
-			]
+			"jdkDistro": "ms"
 		}
 	}
 
